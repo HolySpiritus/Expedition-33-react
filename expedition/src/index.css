@@ -1,0 +1,12 @@
+@import './clock.css';
+@import './navigation.css';
+@import './about.css';
+@import './characters.css';
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: rgb(32, 32, 32);
+  margin: 0;
+}

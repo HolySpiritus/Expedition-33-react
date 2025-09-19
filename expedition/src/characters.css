@@ -1,0 +1,86 @@
+.c-intro{
+
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: "Cinzel", serif;
+    font-weight: 400rem;
+    font-style: normal;
+    font-size: 3rem;
+    border: 1px solid #aea805;
+    margin-left: 20rem;
+    margin-right: 20rem;
+
+}
+
+.background-c {
+  width: 100%; 
+  height: 2rem; 
+  background-image: url('../src/assets/gustave-background.jpg'); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 70vh;
+  align-items: center;
+}
+.characters h1{
+    display: flex;
+    justify-content: center;
+    color: var(--text-color);
+    font-family: "Cinzel", serif;
+    font-weight: 400rem;
+    font-style: normal;
+    font-size: 3rem;
+    border: 1rem solid var(--intro-border-color);
+    margin-bottom: 0.5rem;
+}
+.card-row {
+    margin-top: 2rem;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 15px 0 8px;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  font-family: "Cinzel", serif;
+  font-weight: 400rem;
+  font-style: normal;
+
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: var(--text-color);
+  padding: 0 15px 20px;
+  font-family: "Cinzel", serif;
+  font-weight: 400rem;
+  font-style: normal;
+}

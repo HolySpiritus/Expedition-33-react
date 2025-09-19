@@ -2,6 +2,9 @@ import './characters.css';
 import gustave from './assets/Gustave.jpg'
 import lune from './assets/Lune.jpg'
 import maelle from './assets/Maelle.jpg'
+import verso from './assets/Verso.jpg'
+import monoco from './assets/Monoco.jpg'
+import sciel from './assets/Sciel.jpg'
 
 
 
@@ -38,6 +41,32 @@ function Characters() {
                     </div>
                 </div>
             </div>
+            <div className="card-row">
+                    <div className="card">
+                        <img
+                            src={verso}
+                            alt="verso"
+                        />
+                        <h3>Verso</h3>
+                        <p>A mirror of Verso Dessendre painted by the Paintress in the world of the Canvas</p>
+                    </div>
+                    <div className="card">
+                        <img
+                            src={monoco}
+                            alt="Fighter"
+                        />
+                        <h3>Monoco</h3>
+                        <p> Joins the Expedition for the sheer thrill of battle, embracing combat as meditation.</p>
+                    </div>
+                    <div className="card">
+                        <img
+                            src={sciel}
+                            alt="Sciel"
+                        />
+                        <h3>Sciel</h3>
+                        <p>Ritually a gambler uses cards of some sort of moon and uses that as advantage.</p>
+                    </div>
+                </div>
         </>
     );
 }

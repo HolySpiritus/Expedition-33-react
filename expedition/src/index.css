@@ -2,6 +2,7 @@
 @import './navigation.css';
 @import './about.css';
 @import './characters.css';
+@import './buy.css';
 
 html{
   scroll-behavior: smooth;

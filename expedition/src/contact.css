@@ -1,0 +1,74 @@
+.background-contact{
+  width: 100%; 
+  background-image: url('../src/assets/background-contact.jpg'); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 70vh;
+  align-items: center;
+}
+
+.contact-left{
+    flex-basis: 40%;
+    padding-left: 20%;
+    color: white;
+}
+.contact-right{
+    flex-basis: 40%;
+}
+.contact-left h1{
+   color: #ffffff;
+    font-family: "Cinzel", serif;
+    font-weight: 400rem;
+    font-style: normal;
+    font-size: 2rem;
+  
+}
+.contact-left p{
+    margin-top: 30px;
+    font-size: 2rem;
+}
+.contact-right form{
+    width: 100%;
+    padding-left: 20%;
+}
+.contact-right button {
+  background: linear-gradient(135deg, #000000, #333333);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 150px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.contact-right button:hover {
+  background: linear-gradient(135deg, #aea805, #aea805); 
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.contact-right button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+form input, form textarea{
+    width: 60%;
+    border: 0;
+    outline: none;
+    background: #ffffff;
+    margin: 12px 0;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 10px 0;
+}

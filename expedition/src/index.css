@@ -3,6 +3,8 @@
 @import './about.css';
 @import './characters.css';
 @import './buy.css';
+@import './contact.css';
+@import './footer.css';
 
 html{
   scroll-behavior: smooth;

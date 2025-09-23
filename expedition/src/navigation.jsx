@@ -14,7 +14,7 @@ function Navigation() {
                     <li><a href="#about">About</a></li>
                     <li><a href="#characters">Characters</a></li>
                     <li><a href="#buy">Buy</a></li>
-                    <li><a href="contact">Contacts</a></li>
+                    <li><a href="#contact">Contacts</a></li>
                 </ul>
             </nav>
 

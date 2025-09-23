@@ -7,8 +7,8 @@ import { useState } from "react";
 function Buy() {
         const [hoverNo, setHoverNo] = useState(false);
     return ( <>
-        <div id="buy"></div>
         <div className="background-b"></div>
+        <div id="buy"></div>
         <div className="buy-page">
             <h1>Will you buy Clair Obscur Expedition 33?</h1>
             <img src={hoverNo ? noImage : after} alt="buy-it" />

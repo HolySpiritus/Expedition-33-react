@@ -5,6 +5,8 @@ import Navigation from './navigation'
 import About from './About'
 import Characters from './Characters'
 import Buy from './Buy'
+import Contact from './Contact'
+import Footer from './footer'
 
 function App() {
 return(
@@ -14,6 +16,8 @@ return(
   <About />
   <Characters />
   <Buy />
+  <Contact />
+  <Footer />
   </>
 )
 }
